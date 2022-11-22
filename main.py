@@ -3,9 +3,9 @@ from management import tab_handler
 from menu import products
 
 if __name__ == "__main__":
-    # print(product_handler.get_product_by_id(28))
+    # print(product_handler.get_product_by_id("28"))
     # print(product_handler.get_products_by_type("drink"))
-    # product_handler.menu_report()
+    product_handler.menu_report()
     new_product = {
         "title": "X-Python",
         "price": 5.0,
